@@ -22,6 +22,8 @@ writer: The writer(s) responsible for the movie's screenplay
 boxOffice: The movie's total box office revenue
 distributor: The company responsible for distributing the movie
 soundMix: The audio format(s) used in the movie
+
+
 Rotten Tomatoes Movie Reviews Dataset: rotten_tomatoes_movie_reviews.csv
 
 id: Unique identifier for each movie (matches the id in rotten_tomatoes_movies.csv)
