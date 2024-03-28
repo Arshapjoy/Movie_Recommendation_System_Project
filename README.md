@@ -26,6 +26,7 @@ Welcome to the Movie Recommendation System project repository! This project aims
 5. **requirements.txt**: File listing all Python dependencies required to run the project.
 
 6. **README.md**: Markdown file providing an overview of the project, setup instructions, and usage guidelines.
+7. **Documentation**: This directory will contain all the documentation about this project
 
 ## Setup Instructions
 
