@@ -1,9 +1,6 @@
 ## Datasets
 
-[Gdrive](https://drive.google.com/drive/folders/1cFFnOok6n-Fu6N3otubXEud0w9jH7-9S?usp=drive_link)
-
-or
-[kaggle](https://www.kaggle.com/datasets/andrezaza/clapper-massive-rotten-tomatoes-movies-and-rev)
+[Gdrive](https://drive.google.com/drive/folders/1cFFnOok6n-Fu6N3otubXEud0w9jH7-9S?usp=drive_link) or [kaggle](https://www.kaggle.com/datasets/andrezaza/clapper-massive-rotten-tomatoes-movies-and-rev)
 
 
 
