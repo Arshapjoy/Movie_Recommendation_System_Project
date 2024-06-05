@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendations System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Movie Recommendations System</h1>
+        <form method="POST">
+            <input type="text" name="title" placeholder="Enter movie title" required>
+            <button type="submit">Get Recommendations</button>
+        </form>
+        {% if input_title %}
+            <h2>Recommendations for "{{ input_title }}":</h2>
+            <img src="{{ input_movie_poster }}" alt="{{ input_title }}">
+        {% endif %}
+        <div class="recommended-movies">
+            {% for movie, poster_url in recommendations %}
+                <div class="movie">
+                    <img src="{{ poster_url }}" alt="{{ movie }}">
+                    <p>{{ movie }}</p>
+                </div>
+                {% if loop.index == 5 %}
+                    </div>
+                    <div class="recommended-movies">
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
