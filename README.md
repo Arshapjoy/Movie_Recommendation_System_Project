@@ -32,7 +32,7 @@ Welcome to the Movie Recommendation System project repository! This project aims
 
 
 ## Web app Demo
-!(static/web app 1.png)
+!([static/web app 1.png](https://github.com/Arshapjoy/Movie_Recommendation_System_Project/blob/1ac9f4bb91da0b6f5470abcd39c40dede4fd09ff/static/web%20app%201.png))
 (https://github.com/kishan0725/AJAX-Movie-Recommendation-System-with-Sentiment-Analysis/blob/master/static/krish-naik.PNG)
 (https://github.com/kishan0725/AJAX-Movie-Recommendation-System-with-Sentiment-Analysis/blob/master/static/krish-naik.PNG)
 (https://github.com/kishan0725/AJAX-Movie-Recommendation-System-with-Sentiment-Analysis/blob/master/static/krish-naik.PNG)
