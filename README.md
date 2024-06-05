@@ -30,6 +30,14 @@ The dataset was from rotten tomatoes website which is an american movie rating w
 ![web app 3.png](https://github.com/Arshapjoy/Movie_Recommendation_System_Project/blob/8870172970b4abcee53fea139e35705116f0f351/static/web%20app%203.png)
 ![web app 4.png](https://github.com/Arshapjoy/Movie_Recommendation_System_Project/blob/8870172970b4abcee53fea139e35705116f0f351/static/web%20app%204.png)
 
+## How to run the project?
+
+1. Clone or download this repository to your local machine.
+2. Get your API key from [https://www.themoviedb.org/](https://developer.themoviedb.org/).
+3. Replace YOUR_API_KEY in of `app.py` file and hit save.
+4. Open your terminal/command prompt from your project directory and run the file `app.py` by executing the command `python app.py`.
+5. Go to your browser and type `http://127.0.0.1:5000/` in the address bar.
+6. That's it! Now explore the recommendations.
 
 ## Contributing
 
