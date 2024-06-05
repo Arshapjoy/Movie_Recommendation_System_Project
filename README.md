@@ -34,7 +34,7 @@ The dataset was from rotten tomatoes website which is an american movie rating w
 
 1. Clone or download this repository to your local machine.
 2. Get your API key from [https://www.themoviedb.org/](https://developer.themoviedb.org/).
-3. Replace YOUR_API_KEY in of `app.py` file and hit save.
+3. Replace YOUR_API_KEY in  `app.py` file and hit save.
 4. Open your terminal/command prompt from your project directory and run the file `app.py` by executing the command `python app.py`.
 5. Go to your browser and type `http://127.0.0.1:5000/` in the address bar.
 6. That's it! Now explore the recommendations.
