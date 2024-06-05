@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+    font-style: bold;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/static/image.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(72, 18, 18, 0.7); /* Add opacity to container */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    text-align: center;
+    
+}
+.container img {
+    max-width: 300px;
+    max-height: 450px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e12020;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #080900;
+    color: white;
+    box-shadow: white;
+}
+
+h1, h2 {
+    color: #fef7f7;
+}
+
+
+
+.recommended-movies {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie {
+    margin: 20px;
+    text-align:  center;
+}
+
+.movie img {
+    max-width: 200px;
+    max-height: 350px;
+}
