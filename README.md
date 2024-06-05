@@ -5,30 +5,23 @@ Welcome to the Movie Recommendation System project repository! This project aims
 
 ## Project Structure
 
-1. **datasets/**: This directory contains the Rotten Tomatoes datasets used for the project.
+1. **Datasets/**: This directory contains the Rotten Tomatoes datasets used for the project.
    - `rotten_tomatoes_movies.csv`: Dataset containing movie information such as titles, audience scores, genres, directors, etc.
    - `rotten_tomatoes_movie_reviews.csv`: Dataset containing critic reviews for movies, including review scores, publication names, etc.
-
-2. **notebooks/**: This directory contains Jupyter notebooks used for data preprocessing, exploratory data analysis (EDA), model development, and evaluation.
+2. **Documentation/**: This directory contains the documents and reports about this project.
+3. **notebooks/**: This directory contains Jupyter notebooks used for data preprocessing, exploratory data analysis (EDA), model development, and evaluation.
    - `01_data_preprocessing.ipynb`: Notebook for data cleaning and preprocessing tasks.
    - `02_eda.ipynb`: Notebook for exploratory data analysis to gain insights into the dataset.
-   - `03_feature_engineering.ipynb`: Notebook for feature extraction and engineering.
-   - `04_model_training.ipynb`: Notebook for model selection, training, and recommendation generation.
-   - `05_evaluation.ipynb`: Notebook for evaluating the performance of the recommendation system.
-   - `06_final_notebook.ipynb`: Notebook with all the codes
-
-3. **src/**: (UPCOMING)
-
-    This directory will contain source code files for the recommendation system implementation.
-   - `recommendation_system.py`: Python script containing functions/classes for recommendation system implementation.
-   - `utils.py`: Python script containing utility functions used across the project.
-
-5. **requirements.txt**: File listing all Python dependencies required to run the project.
-
+   - `03_model_building`: Notebook for model building trial.
+   - `04_Final_eda.ipynb`:  Notebook for finalised codes of preprocessing.
+   - `05_Final_model.ipynb`: Notebook for finalised model
+4. **static/**: This repository contains images, style files
+5. **templates/**: This repository contain html file for web app
 6. **README.md**: Markdown file providing an overview of the project, setup instructions, and usage guidelines.
-7. **Documentation**: This directory will contain all the documentation about this project
+7. **app.py**: This file contains the code for flask web app.
 
-## Setup Instructions
+## About the Project
+The dataset was from rotten tomatoes website which is an american movie rating website. I have done this project as a part my Masters in Artificial inetlligence. The major challenge with this dataset is its size, so a powerful RAM is required to explore the maximum possibilities of this dataset.At the same time its wide range of possibilities (because of the large varieties of features available) any kind of recommendation system can be generated out of it. Another challenge was the data cleaning process. There were quite some challenge to clean the dataset as per the requirement. I have created a flask web app to demosntrate my work, but its not deployed in cloud yet. Since this project is under evaluation, the complete notebook files will be available after the evaluataion.
 
 
 ## Web app Demo
@@ -36,11 +29,6 @@ Welcome to the Movie Recommendation System project repository! This project aims
 ![web app 2.png](https://github.com/Arshapjoy/Movie_Recommendation_System_Project/blob/b4ea8bd466095ab281d852eda5f6642db0c1a703/static/web%20app%202.png)
 ![web app 3.png](https://github.com/Arshapjoy/Movie_Recommendation_System_Project/blob/8870172970b4abcee53fea139e35705116f0f351/static/web%20app%203.png)
 ![web app 4.png](https://github.com/Arshapjoy/Movie_Recommendation_System_Project/blob/8870172970b4abcee53fea139e35705116f0f351/static/web%20app%204.png)
-
-
-
-## Usage Guidelines
-
 
 
 ## Contributing
