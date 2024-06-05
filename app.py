@@ -16,7 +16,7 @@ with open(os.path.join(path, 'subset_df.pkl'), 'rb') as file:
     subset_df = pickle.load(file)
 
 # TMDb API key
-tmdb_api_key = 'c23ea6dbf1ea9800335aba342a81139e'
+YOUR_API_KEY = 'd23da6dcf1ea9800335aba342a81139e'
 
 def content_based_recommendations(title, cosine_sim=cosine_sim, df=subset_df, num_recommendations=10):
     title = title.strip()
