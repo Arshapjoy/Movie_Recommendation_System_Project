@@ -18,7 +18,7 @@ Welcome to the Movie Recommendation System project repository! This project aims
 4. **static/**: This repository contains images, style files
 5. **templates/**: This repository contain html file for web app
 6. **README.md**: Markdown file providing an overview of the project, setup instructions, and usage guidelines.
-7. **app.py**: This file contains the code for flask web app.
+7. **app.py**: This file contains the code for python flask web app.
 
 ## About the Project
 The dataset was from rotten tomatoes website which is an american movie rating website. I have done this project as part of my Masters in Artificial inetlligence. The major challenge with this dataset is its size, so a powerful RAM is required to explore the maximum possibilities of this dataset. At the same time its wide range of possibilities (because of the large varieties of features available) any kind of recommendation system can be generated out of it. Another challenge was the data cleaning process. There were quite some challenge to clean the dataset as per the requirement. The content based model recommendtion system is build using TF-IDF cosine similarity. I have created a flask web app to demonstrate my work, but its not deployed in cloud yet. The app will recommend 10 similar movies for every input movie along with their corresponding posters for better user experience. Rotten tomatoes api was not available so I have used tmdb api for the poster retrievals. Since this project is under evaluation, the complete notebook files will be available after the evaluataion.
